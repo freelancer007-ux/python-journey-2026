@@ -87,3 +87,104 @@ Atteindre 1000€-2000€/mois en 12 mois grâce à la tech (Python + SQL + Next
 
 ## 🚀 Prochaine étape
 **Jour 3** : Encapsulation & Properties (sécuriser les attributs)
+
+## 📅 Jour 3 - 14 Février 2026 ✅
+**Compétences acquises :**
+- ✅ Encapsulation (attributs privés avec __)
+- ✅ Décorateur @property pour getters
+- ✅ Décorateur @setter pour setters avec validation
+- ✅ Attributs en lecture seule
+- ✅ Gestion d'exceptions (raise ValueError)
+- ✅ Validation des données à la création
+
+**Projets du jour :**
+- `encapsulation_demo.py` - Démonstration protection des données
+- `property_demo.py` - Utilisation @property
+- `comptebancaire_v2.py` - Compte bancaire sécurisé complet
+
+**Fonctionnalités sécurisées :**
+- 🔒 Solde protégé contre valeurs négatives
+- 🔒 Numéro de compte en lecture seule (immuable)
+- 🔒 Validation plafond et dépôts
+- 🔒 Validation titulaire (pas de nom vide)
+- 🔒 Gestion d'erreurs avec exceptions
+
+**Temps passé :** 4 heures
+
+## 🔥 Statistiques
+- Jours validés : 3/30 ✅✅✅
+- Commits totaux : 6+
+- Projets complétés : 5
+- Streak actuel : 3 jours 🔥🔥🔥
+- Lignes de code : ~150+
+
+## 📅 Jour 4 - 15 Février 2026 ✅
+**Compétences acquises :**
+- ✅ Héritage de classes (class Enfant(Parent))
+- ✅ Utilisation de super() pour appeler le constructeur parent
+- ✅ Surcharge de méthodes (override)
+- ✅ Extension de classes avec nouvelles fonctionnalités
+- ✅ Combinaison encapsulation + héritage
+- ✅ Hiérarchie de classes complexe
+- ✅ Réutilisation de code via héritage
+
+**Projets du jour :**
+- `comptes_heritage.py` - Système bancaire avec 3 types de comptes
+- `heritage_espece.py` - Système Espèces (Humain, Animal, Extraterrestre)
+- `compte_heritage_ameliore.py` - Compte avec épargne, encapsulation complète
+
+**Types de comptes bancaires créés :**
+- 🏦 **Compte** : Classe parent avec dépôt, retrait, gestion solde
+- 💰 **CompteEpargne** : Héritage , calcul automatique, épargne
+
+**Système Espèces implémenté :**
+- 🌍 **Espece** : Classe parent avec nom, âge, présentation
+- 👥 **Humain** : Héritage + sexe, 
+- 🐾 **Animal** : Héritage + espèce animale
+
+
+**Concepts maîtrisés :**
+- Classe parent commune (code partagé)
+- Héritage des attributs et méthodes
+- Ajout de fonctionnalités spécifiques par enfant
+- Surcharge intelligente avec super()
+- Validation des données dans constructeurs
+- Properties combinées avec héritage
+- Polymorphisme de base (différentes classes, même interface)
+
+**Points forts :**
+- ✅ 2 projets différents créés
+- ✅ Hiérarchies de classes multiples
+- ✅ Code réutilisable et maintenable
+- ✅ Validation des données robuste
+- ✅ Combinaison des concepts des jours précédents
+
+**Temps passé :** 4 heures  
+**Difficultés :** Accès aux attributs privés dans classes enfants (résolu avec @property)
+
+## 🔥 Statistiques
+- Jours validés : 4/30 ✅✅✅✅
+- Commits totaux : 10+
+- Projets complétés : 11
+- Streak actuel : 4 jours 🔥🔥🔥🔥
+- Lignes de code : ~400+
+- Classes créées : 12+
+
+## 📚 Compétences Python maîtrisées
+- [x] Fonctions et paramètres
+- [x] Boucles et conditions
+- [x] Gestion erreurs (try/except, raise)
+- [x] Classes et objets
+- [x] Méthodes d'instance
+- [x] Constructeur __init__
+- [x] Encapsulation (attributs privés __)
+- [x] Properties (@property, @setter)
+- [x] Héritage (super()) ⭐ NEW
+- [x] Hiérarchie de classes ⭐ NEW
+- [x] Réutilisation de code ⭐ NEW
+
+## 🚀 Prochaine étape
+**Jour 5** : Polymorphisme & __str__/__repr__ (Manipulation avancée d'objets)
+
+---
+*Dernière mise à jour : 15 février 2026*
