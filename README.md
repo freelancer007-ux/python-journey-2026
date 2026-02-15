@@ -87,3 +87,35 @@ Atteindre 1000€-2000€/mois en 12 mois grâce à la tech (Python + SQL + Next
 
 ## 🚀 Prochaine étape
 **Jour 3** : Encapsulation & Properties (sécuriser les attributs)
+
+## 📅 Jour 3 - 14 Février 2026 ✅
+**Compétences acquises :**
+- ✅ Encapsulation (attributs privés avec __)
+- ✅ Décorateur @property pour getters
+- ✅ Décorateur @setter pour setters avec validation
+- ✅ Attributs en lecture seule
+- ✅ Gestion d'exceptions (raise ValueError)
+- ✅ Validation des données à la création
+
+**Projets du jour :**
+- `encapsulation_demo.py` - Démonstration protection des données
+- `property_demo.py` - Utilisation @property
+- `comptebancaire_v2.py` - Compte bancaire sécurisé complet
+
+**Fonctionnalités sécurisées :**
+- 🔒 Solde protégé contre valeurs négatives
+- 🔒 Numéro de compte en lecture seule (immuable)
+- 🔒 Validation plafond et dépôts
+- 🔒 Validation titulaire (pas de nom vide)
+- 🔒 Gestion d'erreurs avec exceptions
+
+**Temps passé :** 4 heures
+
+## 🔥 Statistiques
+- Jours validés : 3/30 ✅✅✅
+- Commits totaux : 6+
+- Projets complétés : 5
+- Streak actuel : 3 jours 🔥🔥🔥
+- Lignes de code : ~150+
+
+
