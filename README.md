@@ -188,3 +188,104 @@ Atteindre 1000€-2000€/mois en 12 mois grâce à la tech (Python + SQL + Next
 
 ---
 *Dernière mise à jour : 15 février 2026*
+
+## 📅 Jour 5 - 16 Février 2026 ✅
+**Compétences acquises :**
+- ✅ Polymorphisme (même méthode, comportements différents)
+- ✅ Méthodes magiques __str__() pour affichage utilisateur
+- ✅ Méthodes magiques __repr__() pour debug/développeur
+- ✅ Duck typing Python (si ça marche comme un canard...)
+- ✅ Listes polymorphes (différents types, même interface)
+- ✅ Surcharge de méthodes avec comportement spécifique
+- ✅ isinstance() et vérification de types
+
+**Projets du jour :**
+- `polymorphisme.py` - Mon système bancaire polymorphe personnel
+
+**Mon système bancaire polymorphe :**
+- 🏦 **Compte** : Classe parent avec dépôt, retrait, properties
+- 💰 **CompteEpargne** : Héritage + taux intérêt, calcul/application intérêts, épargne
+- 👶 **CompteJeune** : Héritage + restriction âge (<25 ans), plafond retrait 10,000
+
+**Démonstration du polymorphisme :**
+- Liste de comptes de types différents
+- Boucle sur tous les comptes avec même code
+- Chaque type affiche différemment (__str__)
+- Méthode retrait() avec comportement spécifique selon le type
+
+**Fonctionnalités implémentées :**
+- ✅ Encapsulation complète (attributs privés __)
+- ✅ Properties pour accès sécurisé (@property)
+- ✅ Validation des données (montants minimums, âge, solde)
+- ✅ Messages d'erreur clairs avec raise ValueError
+- ✅ Formatage des montants (séparateurs de milliers)
+- ✅ __str__ unique pour chaque type de compte
+- ✅ __repr__ pour debug
+
+**Exemple de polymorphisme en action :**
+```python
+# Liste avec différents types de comptes
+comptes = [c1, c2, c3, c4]  # Compte, CompteEpargne, CompteJeune, Compte
+
+```
+
+**Points forts de mon code :**
+- 👍 Code propre et bien structuré
+- 👍 Validation robuste des données
+- 👍 Messages utilisateur clairs
+- 👍 Polymorphisme bien implémenté
+- 👍 Combinaison réussie de tous les concepts (encapsulation + héritage + polymorphisme)
+
+**Temps passé :** 4 heures  
+**Difficultés :** Accès aux attributs privés via properties (résolu), conditions de validation (corrigées)
+
+## 🔥 Statistiques
+- Jours validés : 5/30 ✅✅✅✅✅
+- Commits totaux : 15+
+- Projets complétés : 15
+- Streak actuel : 5 jours 🔥🔥🔥🔥🔥
+- Lignes de code : ~700+
+- Classes créées : 21+
+
+## 📚 Compétences Python maîtrisées
+- [x] Fonctions et paramètres
+- [x] Boucles et conditions
+- [x] Gestion erreurs (try/except, raise)
+- [x] Classes et objets
+- [x] Méthodes d'instance
+- [x] Constructeur __init__
+- [x] Type hints
+- [x] Encapsulation (attributs privés __)
+- [x] Properties (@property, @setter)
+- [x] Héritage (super(), surcharge)
+- [x] Hiérarchie de classes
+- [x] Polymorphisme ⭐ NEW
+- [x] __str__ et __repr__ ⭐ NEW
+
+## 🎉 SEMAINE 1 COMPLÉTÉE ! 
+**POO (Programmation Orientée Objet) MAÎTRISÉE !**
+- ✅ Jour 1 : Setup + Calculatrice
+- ✅ Jour 2 : Classes & Objets
+- ✅ Jour 3 : Encapsulation & Properties
+- ✅ Jour 4 : Héritage
+- ✅ Jour 5 : Polymorphisme
+
+**Bilan Semaine 1 :**
+- 5 jours consécutifs validés 🔥🔥🔥🔥🔥
+- 15+ projets créés
+- 21+ classes développées
+- ~700 lignes de code
+- Concepts POO complets maîtrisés
+
+## 🚀 Prochaine étape
+**SEMAINE 2 : Fichiers & APIs (Jours 6-12)**
+- Jour 6 : Gestion Erreurs avancée
+- Jour 7 : Mini-Projet Banque complet
+- Jour 8 : Manipulation Fichiers (JSON, CSV)
+- Jour 9 : Excel avec openpyxl
+- Jour 10 : API requests
+- Jour 11 : Web Scraping
+- Jour 12 : Automatisation
+
+---
+*Dernière mise à jour : 16 février 2026*
