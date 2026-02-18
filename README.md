@@ -1,10 +1,6 @@
 # python-journey-2026
-Mon parcours vers la liberté financiere - 30 jours python
 
-# 🐍 Python Journey 2026 - Mon Parcours vers la Liberté Financière
-
-## 🎯 Objectif
-Atteindre 1000€-2000€/mois en 12 mois grâce à la tech (Python + SQL + Next.js)
+# 🐍 Python Journey 2026 - Mon Parcours
 
 ## 📅 Jour 1 - 12 Février 2026 ✅
 **Compétences acquises :**
