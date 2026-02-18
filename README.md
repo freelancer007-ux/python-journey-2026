@@ -289,3 +289,115 @@ comptes = [c1, c2, c3, c4]  # Compte, CompteEpargne, CompteJeune, Compte
 
 ---
 *Dernière mise à jour : 16 février 2026*
+## 📅 Jour 6 - 17 Février 2026 ✅
+**Compétences acquises :**
+- ✅ Gestion d'erreurs avec try/except/else/finally
+- ✅ Exceptions Python natives (ValueError, TypeError, etc.)
+- ✅ Créer exceptions personnalisées héritant d'Exception
+- ✅ Hiérarchie d'exceptions (classe de base Erreur)
+- ✅ raise pour lever des exceptions
+- ✅ Attributs personnalisés dans les exceptions
+- ✅ Design Pattern "État" (Actif/Inactif) ⭐ AVANCÉ
+- ✅ Gestion robuste et professionnelle des erreurs
+
+**Projets du jour :**
+- `banque_jour6.py` - Système bancaire complet avec gestion d'erreurs et états
+
+**Exceptions personnalisées créées :**
+- 🔴 **Erreur** : Classe de base pour toutes les erreurs bancaires
+- 💰 **SoldeInsuffisant** : Levée quand solde < montant demandé
+- 💵 **MontantInvalide** : Levée pour montants négatifs ou invalides
+- 📊 **PlafondDepasse** : Levée quand plafond du compte jeune dépassé
+- 👶 **AgeInvalide** : Levée pour compte jeune avec âge >= 25 ans
+- 🔒 **CompteInactif** : Levée pour opération sur compte inactif
+
+**Design Pattern "État" implémenté :**
+- 🎭 **Etat** : Classe de base pour les états
+- ✅ **Actif** : État compte actif (opérations autorisées)
+- 🔒 **Inactif** : État compte inactif (opérations bloquées)
+- Méthode `verifier_actif()` dans toutes les opérations
+- Méthodes `activer()` et `desactiver()` pour gérer les états
+
+**Architecture du code :**
+```
+Erreur (base)
+├── MontantInvalide
+├── SoldeInsuffisant
+├── PlafondDepasse
+├── AgeInvalide
+└── CompteInactif
+
+Etat (base)
+├── Actif
+└── Inactif
+
+Compte (base avec états)
+├── CompteEpargne (solde minimum 100)
+└── CompteJeune (plafond + âge < 25)
+```
+
+**Fonctionnalités avancées :**
+- ✅ Vérification automatique de l'état avant chaque opération
+- ✅ Messages d'erreur détaillés avec valeurs
+- ✅ Validation des types (isinstance)
+- ✅ Validation des montants (positifs, plafonds)
+- ✅ Gestion des cas limites (solde minimum épargne)
+- ✅ Formatage des nombres (séparateurs de milliers)
+- ✅ Tests exhaustifs de tous les cas d'erreur
+
+**Tests réalisés :**
+1. ✅ Opérations sur compte inactif (bloquées)
+2. ✅ Montants invalides (négatifs, texte)
+3. ✅ Solde insuffisant
+4. ✅ Plafond dépassé (compte jeune)
+5. ✅ Solde minimum (compte épargne)
+6. ✅ Âge invalide (compte jeune)
+7. ✅ Activation/Désactivation de comptes
+
+**Points forts de mon code :**
+- 👍 Architecture propre et modulaire
+- 👍 Exceptions avec contexte (attributs personnalisés)
+- 👍 Pattern "État" pour gérer les états des comptes
+- 👍 Code défensif (vérifications multiples)
+- 👍 Messages utilisateur clairs et formatés
+- 👍 Séparation des responsabilités
+
+**Concepts avancés maîtrisés :**
+- Design Patterns (État)
+- Hiérarchie d'exceptions
+- Programmation défensive
+- Gestion d'états d'objets
+
+**Temps passé :** 4 heures  
+**Difficultés :** Compréhension initiale des exceptions (résolue avec exemples simples)
+
+## 🔥 Statistiques
+- Jours validés : 6/30 ✅✅✅✅✅✅
+- Commits totaux : 19+
+- Projets complétés : 19
+- Streak actuel : 6 jours 🔥🔥🔥🔥🔥🔥
+- Lignes de code : ~900+
+- Classes créées : 29+
+
+## 📚 Compétences Python maîtrisées
+- [x] Fonctions et paramètres
+- [x] Boucles et conditions
+- [x] Gestion erreurs (try/except/raise)
+- [x] Classes et objets
+- [x] Méthodes d'instance
+- [x] Constructeur __init__
+- [x] Type hints
+- [x] Encapsulation (attributs privés __)
+- [x] Properties (@property, @setter)
+- [x] Héritage (super(), surcharge)
+- [x] Polymorphisme
+- [x] __str__ et __repr__
+- [x] Exceptions personnalisées ⭐ NEW
+- [x] Design Patterns (État) ⭐ NEW
+- [x] isinstance() et vérification types ⭐ NEW
+
+## 🚀 Prochaine étape
+**Jour 7** : Mini-Projet Banque complet avec menu interactif et sauvegarde JSON
+
+---
+*Dernière mise à jour : 17 février 2026*
